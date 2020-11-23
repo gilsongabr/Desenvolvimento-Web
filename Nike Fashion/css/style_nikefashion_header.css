@@ -1,0 +1,52 @@
+header{
+    width: 100%;
+    position:relative;
+    height: 70px;
+}
+
+img.nikelogo {
+    width: 150px;
+    height: 70px;
+    position: relative;
+    top:0;
+    left0;
+}
+
+nav.sacola {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    margin-top:0px;
+    padding-top:0px;
+    height:30px;
+}
+
+nav.sacola p {
+    width:130px;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size: 12px;
+}
+
+nav.sacola ul {
+    list-style:none;
+    text-align:right;
+    display:flex;
+}
+
+nav.navegacao {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height:45px;
+}
+
+nav.navegacao ul{
+    list-style:none;
+    text-align:right;
+    display:flex;
+}
+
+nav.navegacao li{
+    margin-left:15px;
+}

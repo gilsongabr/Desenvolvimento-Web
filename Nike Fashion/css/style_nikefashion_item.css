@@ -1,0 +1,152 @@
+.item {
+    width:100%;
+}
+
+.img_item{
+    width:45%;
+    margin-bottom:5px;
+}
+
+.img_item li{
+    width:48%;
+}
+
+
+.item img{
+    width:100%;
+    height:100%;
+}
+
+.preco{
+    margin-top:5px;
+    width:50%;
+    margin-left:40px;
+    border:2px solid black;
+}
+
+.form{
+    position:absolute;
+    top:0;
+    right:0;
+    margin-top:40px;
+    margin-right:40px;
+    width:35%;
+    height:94%;
+}
+
+.form_cor{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:9.5%;
+}
+
+.form_cor img{
+    width:70px;
+    height:70px;
+}
+
+.label_cor{
+    width:70px;
+    height:70px;
+    display:inline-block;
+}
+
+
+.cor1 {
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 55%;
+}
+/*
+.cor2 {
+    display:none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.cor3{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+    */
+.form_cor input[type=radio]{
+    display:none;
+}
+
+.form_cor input[id=azul]:checked + label{
+    border:1px solid black;
+}
+
+/*
+.form_cor input[id=preto]:checked + label {
+    border: 1px solid black;
+}
+
+.form_cor input[id=vermelho]:checked + label {
+    border: 1px solid black;
+}
+*/
+
+.tamanhos {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    margin-bottom:30px;
+}
+.tamanhos input {
+    width: 90px;
+    height: 60px;
+    margin-bottom: 5px;
+    background-color: rgb(236, 240, 241);
+}
+
+.tamanhos input[value]{
+    font-size:20px;
+}
+
+.bcomprar{
+    width:100%;
+    margin-top:30px;
+    margin-bottom:5px;
+}
+
+.bcomprar input{
+    background-color:black;
+    border-radius:50px 50px;
+    width:100%;
+    height:50px;
+}
+
+.bcomprar input[value]{
+    color:white;
+    font-size:18px;
+}
+
+.favorito{
+    width:100%;
+}
+
+.favorito input{
+    background-color:white;
+    border:2px solid black;
+    border-radius:50px 50px;
+    width:100%;
+    height:50px;
+}
+
+.favorito input[value]{
+    color:black;
+    font-size:18px;
+}
+
+.titulo{
+    font-family: Garamond;
+    font-weight:bold;
+    font-size: 25px;
+    padding:0;
+}
+

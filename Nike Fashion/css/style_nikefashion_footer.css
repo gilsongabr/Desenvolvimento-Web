@@ -1,0 +1,235 @@
+.rodape {
+    width: 100%;
+    position: relative;
+}
+
+.novidade {
+    background-color: rgb(236, 240, 241);
+    text-align: center;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.receba{
+    margin-top:0px;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.cadastre{
+    font-size:14px;
+}
+
+.cadastrar {
+    background-color: rgb(236, 240, 241);
+    color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 35px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.cadastrar:hover {
+    transition: 0.6s;
+    background-color: black;
+    color: rgb(236, 240, 241);
+}
+
+.fim {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    padding-top: 50px;
+    height:400px;
+}
+
+.sobre_1{
+    width:20%;
+}
+
+.sobre_1 ul{
+    text-align:left;
+    list-style:none;
+}
+.sobre_1 li{
+    color:white;
+    font-weight:bold;
+}
+
+.sobre_1 a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+}
+
+.sobre_2 {
+    width: 30%;
+    position: relative;
+    top: -63px;
+    left: 200px;
+}
+
+.sobre_2 ul{
+    text-align:left;
+    list-style:none;
+}
+
+.sobre_2 li{
+    color:#6c757d;
+}
+
+.sobre_2 b{
+    color:white;
+    font-weight:bold;
+}
+
+.sobre_3 {
+    width: 30%;
+    position: relative;
+    top: -329px;
+    left: 470px;
+}
+
+.sobre_3 ul{
+    text-align:left;
+    list-style:none;
+}
+
+.sobre_3 li{
+    color:#6c757d;
+}
+
+.sobre_3 b {
+    color: white;
+    font-weight: bold;
+}
+
+
+.social {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.social p{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:5px;
+    text-transform:uppercase;
+}
+.social ul{
+    margin-top:5px;
+    width:100%;
+    list-style:none;
+    padding-left:0px;
+}
+
+.social li{
+    display: inline-flex;
+    margin-left:6px;
+}
+
+.pagamento{
+    text-align:right;
+    position:absolute;
+    top:150px;
+    right:0px;
+    margin-right:40px;
+
+}
+.pagamento img{
+    width:40px;
+    height:20px;
+}
+
+.pagamento p{
+    color:white;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin-bottom:5px;
+}
+
+.pagamento ul{
+    margin-top:5px;
+    list-style:none;
+} 
+
+.pagamento li{
+    display:inline-flex;
+}
+
+hr{
+    text-align:center;
+    position:absolute;
+    color:white;
+    width:99%;
+    bottom:50px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.politica{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.politica ul{
+    padding-left:0px;
+    list-style:none;
+}
+
+.politica li{
+    display:inline-flex;
+    color:#6c757d;
+}
+
+.termo{
+    margin-left:40px;
+}
+
+
+.sobre_2 a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.sobre_3 a {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.politica a{
+    text-decoration:none;
+    color: #6c757d;
+}
+
+.sobre_2 li:nth-child(2n) a:hover{
+    color:white;
+}
+
+.sobre_2 li:nth-child(2n+1) a:hover {
+    color: white;
+}
+
+.sobre_3 li:nth-child(2n) a:hover {
+    color: white;
+}
+
+.sobre_3 li:nth-child(2n+1) a:hover {
+    color: white;
+}
+
+.politica li:first-child a:hover{
+    color:white;
+}
+
+.politica li:last-child a:hover{
+    color:white;
+}

@@ -1,0 +1,69 @@
+
+.masculino ul{
+    display:none;
+}
+
+.feminino ul{
+    display:none;
+}
+.infantil ul{
+    display:none;
+}
+
+.masculino:hover ul{
+    transition:0.2s;
+    display:block;
+}
+
+.feminino:hover ul {
+    transition: 0.2s;
+    display: block;
+}
+
+.infantil:hover ul {
+    transition: 0.2s;
+    display: block;
+}
+
+.departamentos a{
+    text-decoration:none;
+    font-size:12px;
+    color:black;
+    font-weight:lighter;
+}
+
+.masculino .calcados:hover {
+    background-color: rgb(236, 240, 241);
+}
+
+.masculino .roupas:hover {
+    background-color: rgb(236, 240, 241);
+}
+
+.masculino .esportes:hover {
+    background-color: rgb(236, 240, 241);
+}
+
+.feminino .calcados:hover {
+    background-color: rgb(236, 240, 241);
+}
+
+.feminino .roupas:hover {
+    background-color: rgb(236, 240, 241);
+}
+
+.feminino .esportes:hover {
+    background-color: rgb(236, 240, 241);
+}
+
+.infantil .calcados:hover {
+    background-color: rgb(236, 240, 241);
+}
+
+.infantil .roupas:hover {
+    background-color: rgb(236, 240, 241);
+}
+
+.infantil .esportes:hover {
+    background-color: rgb(236, 240, 241);
+}

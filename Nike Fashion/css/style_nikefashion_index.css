@@ -1,0 +1,87 @@
+body.page {
+	width: 1000px;
+	margin: auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+figure.centro-destribuicao {
+	width: 60%;
+	margin: auto;
+	background-color: #F2EDED;
+	border: 1px solid #ccc;
+	border-style: outset;
+}
+
+figure.modelo {
+	float: right;
+	width: 30%;
+	margin: auto;
+	background-color: #F2EDED;
+	border: 1px solid #ccc;
+	border-style: outset;
+}
+
+img.centro{
+	width:100%;
+}
+
+figcaption.centro-destribuicao{
+	text-align: center;
+	font-style:italic;
+}
+
+figcaption.modelo {
+	text-align: center;
+	font-style: italic;
+}
+
+
+h1.titulo {
+	background-color: gray;
+}
+
+h1.compre{
+	background-color: rgba(209, 163, 250, 0.74);
+	color:blue;
+	text-align:center;
+}
+p {
+	padding: 0 45px;
+	margin-left:5px;
+	text-indent: 15px;
+}
+
+div.subtitulo{
+	line-height:2px;
+}
+
+img.rodape{
+	float:left;
+	width:70px;
+	height:30px;
+}
+
+div.menu {
+	width: 100%;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+
+div.menu ul {
+		list-style: none;
+		text-align: right;
+}
+
+div.menu li {
+		display: inline-block;
+}
+
+div.menu a {
+		text-decoration: none;
+		color: black;
+		display: block;
+		font-size: 14px;
+		padding: 10px 12px;
+		text-transform: uppercase;
+}

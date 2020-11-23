@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Nike Fashion</title>
+    <link rel="stylesheet" href="css/style_nikefashion_home.css" />
+    <link rel="stylesheet" href="css/style_nikefashion_slideshow.css" />
+    <link rel="stylesheet" href="css/style_nikefashion_header.css" />
+    <link rel="stylesheet" href="css/style_nikefashion_footer.css" />
+    <link rel="stylesheet" href="css/style_nikefashion_painel.css" />
+    <link rel="stylesheet" href="css/style_nikefashion_menu.css" />
+
+</head>
+<body id="home">
+    <header id="cabecalho">
+        <img class="nikelogo" src="img/nike_logo.png" />
+
+        <nav class="sacola">
+            <ul>
+                <li>
+                    <p>Nenhum item na sacola de compras</p>
+                </li>
+                <li><img src="img/sacola.png" alt="Ícone de compras" /></li>
+            </ul>
+        </nav>
+
+        <nav class="navegacao">
+            <ul>
+                <li><a href="#">Sua conta</a></li>
+                <li><a href="#">Lista de Desejos</a></li>
+                <li><a href="#">Cartão Fidelidade</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="busca">
+        <p>Busca</p>
+        <form>
+            <input type="search">
+            <button><img src="img/busca.png" alt="ícone de busca" /></button>
+        </form>
+    </section>
+
+    <section class="departamentos">
+        <ul>
+            <li class="departamentos">Departamentos</li>
+            <li class="masculino">Masculino
+                <ul>
+                    <li class="calcados"><a href="produtos/masculino/calcados.html" target="_self">- Calçados</a></li>
+                    <li class="roupas"><a href="produtos/masculino/roupas.html" target="_self">- Roupas</a></li>
+                    <li class="esportes"><a href="produtos/masculino/esportes.html" target="_self">- Esportes</a></li>
+                </ul>      
+            </li>
+            <li class="feminino">Feminino
+                <ul>
+                    <li class="calcados"><a href="produtos/feminino/calcados.html" target="_self">- Calçados</a></li>
+                    <li class="roupas"><a href="produtos/feminino/roupas.html" target="_self">- Roupas</a></li>
+                    <li class="esportes"><a href="produtos/feminino/esportes.html" target="_self">- Esportes</a></li>
+                </ul>
+            </li>
+            <li class="infantil">Infantil
+                <ul>
+                    <li class="calcados"><a href="produtos/infantil/calcados.html" target="_self">- Calçados</a></li>
+                    <li class="roupas"><a href="produtos/infantil/roupas.html" target="_self">- Roupas</a></li>
+                    <li class="esportes"><a href="produtos/infantil/esportes.html" target="_self">- Esportes</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <div class="moda">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked />
+            <input type="radio" name="r" id="r2" />
+            <input type="radio" name="r" id="r3" />
+            <input type="radio" name="r" id="r4" />
+            <input type="radio" name="r" id="r5" />
+            <div class="slide s1">
+                <a href="produtos/masculino/roupas.html" target="_blank"><img class="img_slide" src="img/nike_moda.png" alt="nike home" /></a>
+            </div>
+            <div class="slide">
+                <a href="produtos/masculino/calcados.html" target="_blank"><img class="img_slide" src="img/tênis_nike.jpg" alt="Tenis nike" /></a>
+            </div>
+            <div class="slide">
+                <a href="produtos/masculino/esportes.html" target="_blank"><img class="img_slide" src="img/slogan.jpg" alt="Slogan nike" /></a>
+            </div>
+            <div class="slide">
+                <a href=""><img class="img_slide" src="img/liverpool.jpg" alt="Liverpool kits" /></a>
+            </div>
+            <div class="slide">
+                <a href=""><img class="img_slide" src="img/inter.jpg" alt="Inter kits" /></a>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+        </div>
+    </div>
+
+    <div class="painel">
+        <div class="novidades">
+            <p>Novidades</p>
+            <ul>
+                <li><img class="painel_produto" src ="img/painel_novidade/Camiseta_Nike_LeBron_Nov.png" alt="Camiseta Nike LeBron"/><img class="comprar" src="img/comprar.png" ><a>Camiseta Nike LeBron <br />R$499,90</a></li>
+                <li><img class="painel_produto" src="img/painel_novidade/Chuteira_Nike_Phantom_Nov.png" alt="Chuteira Nike Phantom" /><img class="comprar" src="img/comprar.png"><a>Chuteira Nike Phantom GT <br />R$1.899,90</a></li>
+                <li><img class="painel_produto" src="img/painel_novidade/Camiseta_Nike_Liverpool_Nov.png" alt="Camiseta Nike Liverpool" /><img class="comprar" src="img/comprar.png"><a>Camiseta Nike Liverpool <br />R$209,90</a></li>
+            </ul>
+            <ul>
+                <li><img class="painel_produto" src="img/painel_novidade/Mochila_Nike_Cr7_Infantil_Nov.png" alt="Mochila Nike Cr7 Infantil" /><img class="comprar" src="img/comprar.png"><a>Mochila Nike Cr7 Infantil <br />R$219,90</a></li>
+                <li><img class="painel_produto" src="img/painel_novidade/Nike_Air_VaporMax_Nov.png" alt="Nike Air VaporMax Flyknit" /><img class="comprar" src="img/comprar.png"><a>Nike Air VaporMax <br />R$.1299,90</a></li>
+                <li><img class="painel_produto" src="img/painel_novidade/Nike_SB_Nov.png" alt="Nike SB" /><img class="comprar" src="img/comprar.png"><a>Nike SB Carge Mid Canvas <br />R$329,99</a></li>
+            </ul>
+        </div>
+        <div class="vendidos">
+            <p>Mais vendidos</p>
+            <ul>
+                <li><img class="painel_produto" src="img/painel_vendidos/camiseta_nike_air.png" alt="Camiseta Nike Air" /><img class="comprar" src="img/comprar.png"><a>Camiseta Nike Air<br />R$ 139,90</a></li>
+                <li><img class="painel_produto" src="img/painel_vendidos/Bolsa_Nike_Sportswear.png" alt="Bolsa Nike Sportswear"/><img class="comprar" src="img/comprar.png"><a>Bolsa Nike Sportswear<br />R$ 219,90</a></li>
+                <li><img class="painel_produto" src="img/painel_vendidos/Camiseta_Nike_PSG.png" alt="Camiseta Nike PSG"/><img class="comprar" src="img/comprar.png"><a>Camiseta Nike PSG<br />R$ 169,90</a></li>
+            </ul>
+            <ul style="margin-bottom:0px;">
+                <li><img class="painel_produto" src="img/painel_vendidos/Camiseta_Nike_Sportswear_Masculina.png" alt="Camiseta Nike Sportswear Masculina"/><img class="comprar" src="img/comprar.png"><a>Camiseta Nike Sportswear<br />R$ 139,90</a></li>
+                <li><img class="painel_produto" src="img/painel_vendidos/Nike_Air_Force_1.png" alt="Nike Air Force 1"/><img class="comprar" src="img/comprar.png"><a>Nike Air Force 1<br />R$ 349,90</a></li>
+                <li><img class="painel_produto" src="img/painel_vendidos/Tênis_Nike_PG_4_Unissex.png" alt="Nike PG 4 Unissex"/><img class="comprar" src="img/comprar.png"><a>Nike PG 4 Unissex<br />R$ 149,90</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <div class="novidade">
+            <img src="img/email_logo.png" alt="logo de email" />
+            <p class="receba">RECEBA AS NOVIDADES DA NIKE FASHION</p>
+            <p class="cadastre">Cadastre-se e seja um dos primeiros a saber de todas as novidades e ofertas.</p>
+            <button class="cadastrar">Cadastre</button>
+        </div>
+
+        <div class="fim">
+            <nav class="sobre_1">
+                <ul>
+                    <li><a href="#">Cadastre-se</a></li>
+                    <li><a href="#home">Mapa do site</a></li>
+                </ul>
+            </nav>
+            <nav class="sobre_2">
+                <ul>
+                    <li><a href="#"><b>AJUDA</b></a></li>
+                    <li><a href="#">Dúvidas Gerais</a></li>
+                    <li><a href="#">Encontre seu Tamanho</a></li>
+                    <li><a href="#">Entregas</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">Pagamentos</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Corporativo</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </nav>
+            <nav class="sobre_3">
+                <ul>
+                    <li><a href="#"><b>SOBRE A NIKE</b></a></li>
+                    <li><a href="#">Trabalhe conosco</a></li>
+                    <li><a href="#">Parcerias</a></li>
+                    <li><a href="#">Nike.com</a></li>
+                </ul>
+            </nav>
+            <nav class="social">
+                <p>Redes Sociais</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/gilson.santana.56" target="_blank"><img src="img/facebook.png" /></a></li>
+                    <li><a href="https://twitter.com/gilsongabr94" target="_blank"><img src="img/twitter.png" /></a></li>
+                </ul>
+            </nav>
+            <nav class="pagamento">
+                <p>Formas de pagamento</p>
+                <ul>
+                    <li><img src="img/visa.png" alt="visa" /></li>
+                    <li><img src="img/mastercard.png" alt="mastercard" /></li>
+                    <li><img src="img/paypal.png" alt="paypal" /></li>
+                    <li><img src="img/discover.png" alt="discover" /></li>
+                    <li><img src="img/americanex.png" alt="americanex" /></li>
+                </ul>
+            </nav>
+
+            <hr />
+
+            <nav class="politica">
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li class="termo"><a href="#">Termos de Uso</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
