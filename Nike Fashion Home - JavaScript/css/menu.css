@@ -1,0 +1,126 @@
+﻿*{
+    padding:0;
+    margin:0;
+    font-family:'Mongolian Baiti';
+}
+
+#menu_main{
+    margin:0;
+    width:100%;
+}
+
+#bar {
+    width: 100%;
+    height: 35px;
+    position: relative;
+    position:fixed;
+    background-color:white;
+    top:70px;
+    z-index:100;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.img_logo{
+    width:40px;
+    height:30px;
+    cursor:pointer;
+    position:absolute;
+    top: 50%;
+    left: 30px;
+    transform:translateY(-50%);
+}
+
+#bar ul{
+    margin:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    list-style:none;
+    display:inline-flex;
+}
+
+#bar li{
+    margin-right:80px;
+}
+
+#bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    font-family:'Mongolian Baiti';
+}
+
+#busca{
+    float:right;
+    margin-top:5px;
+    position:relative;
+}
+
+#busca input{
+    margin:0;
+    margin-right:50px;
+    padding:0;
+    height:25px;
+    width:200px;
+    border-radius:5px 5px;
+}
+
+.img_busca{
+    cursor:pointer;
+    position:absolute;
+    top:2px;
+    right:24%;
+    width:20px;
+    height:20px;
+}
+
+#bar a:hover{
+    border-bottom: 2px solid black;
+}
+
+#bar a:hover ~ #lista_menu_masculino {
+    display:block;
+}
+
+
+
+
+@media screen and (max-width:950px){
+    #bar ul{
+        left:40%;
+    }
+
+    #bar li{
+        margin-right: 40px;
+    }
+
+    #busca input{
+        width:150px;
+        margin-right:35px;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    #bar li{
+        margin-right:20px;
+    }
+
+    .img_logo{
+        display:none;
+    }
+
+    #bar a{
+        font-size:20px;
+    }
+
+    #busca input{
+        width:100px;
+        margin-right:15px;
+    }
+
+    .img_busca{
+        right:15%;
+    }
+}
